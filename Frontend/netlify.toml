@@ -3,4 +3,4 @@
   publish = "dist"
 
 [build.environment]
-  VITE_API_BASE_URL = "https://booklibrarymanagementsystem-3nk7.onrender.com/api"
+  VITE_API_BASE_URL = "https://booklibrarymanagementsystem-1.onrender.com/api"
