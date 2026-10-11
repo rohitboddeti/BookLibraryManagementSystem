@@ -8,7 +8,7 @@ export default function Auth({ setToken }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const endpoint = isLogin ? '/login' : '/signup';
+      const endpoint = isLogin ? '/auth/login' : '/auth/signup';
       const { data } = await API.post(endpoint, formData);
       if (isLogin) {
         localStorage.setItem('token', data.token);
